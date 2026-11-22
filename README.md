@@ -16,12 +16,13 @@ A macOS-inspired desktop environment that runs in Safari on iPhone. It is a web 
 ## Deploy to GitHub Pages (free)
 1. Create a GitHub repository, e.g. `mac-desktop`.
 2. Upload **all contents of this folder** to the repository root (not the enclosing folder).
-3. In the repository, open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select branch `main` and folder `/(root)`, then Save.
-6. Wait for the Pages URL, usually `https://YOUR-USERNAME.github.io/mac-desktop/`.
-7. Open that URL in Safari on iPhone, tap Share → Add to Home Screen → Add.
-8. Launch the new home-screen icon.
+3. Keep `icon-192.png` and `icon-512.png` directly in the repository root alongside `index.html` (do not put them in an `icons/` folder).
+4. In the repository, open **Settings → Pages**.
+5. Under **Build and deployment**, choose **Deploy from a branch**.
+6. Select branch `main` and folder `/(root)`, then Save.
+7. Wait for the Pages URL, usually `https://YOUR-USERNAME.github.io/mac-desktop/`.
+8. Open that URL in Safari on iPhone, tap Share → Add to Home Screen → Add.
+9. Launch the new home-screen icon.
 
 ## iPhone notes
 - Use Safari and HTTPS. The service worker requires a secure context.
